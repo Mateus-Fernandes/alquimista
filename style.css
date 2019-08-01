@@ -1,0 +1,61 @@
+header{
+    background: url(images/header.png) center top;
+    height: 196px;
+}.carousel-item {
+    height: 678px;
+    min-height: 350px;
+   background-attachment: fixed;
+   background-position: center bottom;
+  }
+
+  .sec2{
+    background: url(images/sect2.png) center top;
+    height: 885px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 38%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.sect3{
+    background: #f6f6f6;
+}
+.pecasp{
+    height: 534px;
+    min-height: 350px;
+
+
+   background: url(images/pecaspersonalizadas_left_right.png);
+   background-attachment: fixed;
+   background-position: center right;
+   background-size: contain;
+}
+.carol{
+    height: 728px;
+    min-height: 350px;
+    
+    background: url(images/carol.png);
+    background-attachment: fixed;
+    background-position: center -300px;
+}
+
+.simbolosp{
+    height: 534px;
+    min-height: 350px;
+
+
+   background: url(images/simbolos_images.png);
+   background-position: left;
+   background-size: contain;
+}
+footer{
+    background: url(images/footer.jpg) center top;
+    height: 1551px;
+}
