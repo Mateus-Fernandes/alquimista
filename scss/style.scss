@@ -78,9 +78,14 @@ header{
               margin-right: 10px;
           }
       }
+      .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
       .middleHeader{
-          padding-top: 38px;
-          padding-bottom: 38px;
+        padding-top: 26px;
+        padding-bottom: 26px;
           background: #FFF;
           .dropdown-menu {
             border: none;
@@ -164,7 +169,7 @@ header{
 
       .menuHeader{
         border-top: 1px solid #e8e8e8;
-        padding-top: 15px;
+        padding-top: 12px;
         nav {
             padding: 0px 120px;
             ul {
@@ -183,7 +188,7 @@ header{
                         padding: 0 4px;
                         transition: all .5s;
                         letter-spacing: 0.06em;
-                        padding-bottom: 12px;
+                        padding-bottom: 8px;
                         &:after {
                             width: 0;
                             position: absolute;
@@ -221,21 +226,33 @@ header{
         }
       }
   }
-
+  .dropdown.show .hamburgBars {
+    position: relative;
+    top: -52px;
+    left: 160px;
+}
   .slider{
       background: #000000;
       .carousel-item{
-          min-height: 676px;
+          min-height: 77.1vh;
+          max-height: 77.1vh;
           background-size: cover;
           background-attachment: fixed;
           .carousel-caption{
             top: 50%;
             transform: translateY(-50%);
+            bottom: inherit;
               h2{
                 font-family: 'herald_typefaceregular';
                 font-size: 72px;
                 color: #FFF;
                 text-shadow: 3px 2px #000;
+              }
+              h3 {
+                font-size: 27px;
+                color: #ffffff;
+                font-weight: 400;
+                text-shadow: 2px 2px #000000;
               }
               .buttonsCaption{
                 margin-top: 50px;
@@ -250,11 +267,19 @@ header{
                     background: #ffffff9c;
                     color: #000000;
                     text-transform: uppercase;
+                    transition: all .5s;
+                    &:hover {
+                        background: #FFF;
+                    }
                 }
                 .btnBlackCapt{
                   background: #000000bf;
                   color: #FFF;
                   text-transform: uppercase;
+                  transition: all .5s;
+                  &:hover {
+                      background: #000;
+                  }
                 }   
               }
            
@@ -288,6 +313,8 @@ header{
           padding-bottom: 15px;
           position: relative;
           z-index: 3;
+          cursor: pointer;
+          transition: all .5s;
           h3{
             font-size: 21px;
             color: #424242;
@@ -315,6 +342,12 @@ header{
                   }
               }
           }
+          &:hover {
+              background: #dddddd;
+              h3, h4, i:before {
+                  color: #000;
+              }
+          }
       }
   }
 
@@ -333,6 +366,9 @@ header{
   .white{
       background: #FFF;
       color: #000;
+      &:hover {
+          background: #000;
+      }
   }
   .black{
       background: #000;
@@ -420,7 +456,7 @@ header{
             width: 50%;
             background-attachment: fixed;
             background-size: contain;
-            background-position: 115%;           
+            background-position: -165px;       
       }
       .imagemBgSecaoLeft{
         position: absolute;
@@ -430,7 +466,7 @@ header{
         width: 50%;
         background-attachment: fixed;
         background-size: contain;
-        background-position-x: -110%;     
+        background-position-x: -318px;  
     }      
   }
 
@@ -627,8 +663,8 @@ header{
         text-transform: uppercase;
         font-size: 50px;
         text-align: center;
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 124px;
+        padding-bottom: 124px;
         margin-bottom: 0;
         position: relative;
         z-index: 2;
@@ -749,7 +785,13 @@ header{
 
     .sidebar .cada_sidebar ul li a { color: #131313; font-size: 16px; }
 
-    .sidebar .cada_sidebar h3 { font-size: 25px; font-weight: bold; color: #303030; margin-bottom: 23px; }
+    .sidebar .cada_sidebar h3 {     font-size: 27px;
+        font-weight: bold;
+        color: #303030;
+        margin-bottom: 23px;
+        font-family: 'Pathway Gothic One', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;}
 
     .sidebar .cada_sidebar .lista_tags a { border: 3px solid #cdcdcd; text-transform: uppercase; font-size: 14px; color: #01014b; padding: 12px 10px; margin-right: 16px; display: inline-block; width: 86px; margin-bottom: 15px; text-align: center; }
 
@@ -831,3 +873,16 @@ header{
         }
     }
 
+    .cadaProduto {
+        margin-bottom: 70px !important;
+    }
+
+.titulo_quem { position: relative; height: 441px; background: #1b1b1b; }
+
+.titulo_quem h1 { display: inline-block; font-size: 60px; font-family: 'Pathway Gothic One', sans-serif; line-height: 60px; letter-spacing: 3px; color: #FFF; text-transform: uppercase; margin-bottom: 32px; }
+
+.titulo_quem h1 span { font-weight: 900; }
+
+.titulo_quem .titulo_align { display: flex; align-self: flex-end; }
+
+.imagem_direita { position: absolute; top: 0; right: 0; width: 50%; background: url(../images/sobre.jpg); height: 441px; }

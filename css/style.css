@@ -1,1 +1,322 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");@font-face{font-family:"Flaticon";src:url("font/Flaticon.eot");src:url("font/Flaticon.eot?#iefix") format("embedded-opentype"),url("font/Flaticon.woff2") format("woff2"),url("font/Flaticon.woff") format("woff"),url("font/Flaticon.ttf") format("truetype"),url("font/Flaticon.svg#Flaticon") format("svg");font-weight:normal;font-style:normal}@media screen and (-webkit-min-device-pixel-ratio: 0){@font-face{font-family:"Flaticon";src:url("font/Flaticon.svg#Flaticon") format("svg")}}[class^="flaticon-"]:before,[class*=" flaticon-"]:before,[class^="flaticon-"]:after,[class*=" flaticon-"]:after{font-family:Flaticon;font-size:20px;font-style:normal;margin-left:20px}.flaticon-full-items-inside-a-shopping-bag:before{content:"\f100"}.flaticon-search:before{content:"\f101"}.flaticon-illuminati:before{content:"\f102"}.flaticon-valknut:before{content:"\f103"}.flaticon-facebook-logo:before{content:"\f104"}.flaticon-instagram:before{content:"\f105"}.flaticon-shopping-cart:before{content:"\f106"}.flaticon-star:before{content:"\f107"}.flaticon-play-button:before{content:"\f108"}.flaticon-email:before{content:"\f109"}@font-face{font-family:'herald_typefaceregular';src:url("font/heraldtypeface-regular-webfont.woff2") format("woff2"),url("font/heraldtypeface-regular-webfont.woff") format("woff");font-weight:normal;font-style:normal}body{font-family:'Carrois Gothic', sans-serif}a{text-decoration:none !important}header{background:#FFF}header .topHeader{background:#f0f0f0;padding:10px 30px;color:#343434;font-size:12px;letter-spacing:0.025em}header .topHeader a{color:#343434;margin-right:10px}header .middleHeader{padding-top:38px;padding-bottom:38px;background:#FFF}header .middleHeader .dropdown-menu{border:none;box-shadow:1px 1px 4px 2px #0000001f;min-width:234px;padding:17px;background:#f3f3f3;font-family:'Pathway Gothic One', sans-serif;padding-top:47px;margin-top:-34px;margin-left:-20px}header .middleHeader .dropdown-menu .dropdown-item{color:#1f1f1f;padding-left:0}header .middleHeader .dropdown-menu h4{margin-top:10px}header .middleHeader .dropdown-menu h4 a{color:#1f1f1f;font-family:'Pathway Gothic One', sans-serif;text-transform:uppercase}header .middleHeader .dropdown-toggle::after{display:none}header .middleHeader .dropdown.show .hamburgBars{display:flex;flex-direction:column}header .middleHeader .dropdown.show .hamburgBars span{display:block;width:45px;height:4px;background:#FFF;margin-top:5px;position:relative;z-index:9999;transition:all .1s}header .middleHeader .dropdown.show .hamburgBars span:nth-child(1){transform:rotate(45deg);width:30px}header .middleHeader .dropdown.show .hamburgBars span:nth-child(2){display:none}header .middleHeader .dropdown.show .hamburgBars span:nth-child(3){transform:rotate(-45deg);top:-9px;width:30px}header .middleHeader .hamburgBars{display:flex;flex-direction:column}header .middleHeader .hamburgBars span{display:block;width:45px;height:4px;background:#096313;margin-top:5px}header .middleHeader .iconesHeader{font-size:12px;color:#343434}header .middleHeader .iconesHeader i:before{font-size:26px;color:#343434}header .middleHeader .iconesHeader span{margin-left:5px}header .menuHeader{border-top:1px solid #e8e8e8;padding-top:15px}header .menuHeader nav{padding:0px 120px}header .menuHeader nav ul{padding:0;margin-right:52px;margin-bottom:0}header .menuHeader nav ul li{height:37px;position:relative;align-items:center;display:flex}header .menuHeader nav ul li a{color:#121212;text-transform:uppercase;font-size:18px;padding:0 4px;transition:all .5s;letter-spacing:0.06em;padding-bottom:12px}header .menuHeader nav ul li a:after{width:0;position:absolute;bottom:0;height:3px;background:#121212;content:'';transition:all .5s;left:0}header .menuHeader nav ul li a:hover{color:#121212;font-weight:700}header .menuHeader nav ul li a:hover:after{width:100%}header .menuHeader nav ul .active a{color:#121212;font-weight:900}header .menuHeader nav ul .active a:after{width:100%;position:absolute;bottom:0;height:3px;background:#121212;content:'';transition:all .5s;left:0}.slider{background:#000000}.slider .carousel-item{min-height:676px;background-size:cover;background-attachment:fixed}.slider .carousel-item .carousel-caption{top:50%;transform:translateY(-50%)}.slider .carousel-item .carousel-caption h2{font-family:'herald_typefaceregular';font-size:72px;color:#FFF;text-shadow:3px 2px #000}.slider .carousel-item .carousel-caption .buttonsCaption{margin-top:50px}.slider .carousel-item .carousel-caption .buttonsCaption .btn{font-size:16px;padding:10px 40px;letter-spacing:0.1em;border-radius:0;margin-right:10px}.slider .carousel-item .carousel-caption .buttonsCaption .btnWhiteCapt{background:#ffffff9c;color:#000000;text-transform:uppercase}.slider .carousel-item .carousel-caption .buttonsCaption .btnBlackCapt{background:#000000bf;color:#FFF;text-transform:uppercase}.sliderBottom{font-family:'Montserrat', sans-serif;position:relative}.sliderBottom .leftSlider{width:50%;position:absolute;z-index:2;background:#e2e2e2;top:0;left:0;height:100%}.sliderBottom .rightSlider{width:50%;position:absolute;z-index:2;background:#f1f1f1;top:0;height:100%;right:0}.sliderBottom .cadaItemSliderBottom{padding-top:15px;padding-bottom:15px;position:relative;z-index:3}.sliderBottom .cadaItemSliderBottom h3{font-size:21px;color:#424242;font-weight:300;margin-bottom:0px;letter-spacing:-0.04em;text-transform:uppercase}.sliderBottom .cadaItemSliderBottom h4{font-size:31px;color:#424242;font-weight:500;margin-bottom:0;letter-spacing:-0.04em;text-transform:uppercase;line-height:25px}.sliderBottom .cadaItemSliderBottom .iconeSliderBottom{margin-right:35px}.sliderBottom .cadaItemSliderBottom .iconeSliderBottom i:before{font-size:71px;color:#aeaeae;position:relative}.btnDefault{border:2px solid #000;font-size:20px;padding:10px 30px;border-radius:0;margin-right:5px;text-transform:uppercase;font-family:'Pathway Gothic One', sans-serif}.btnDefault:hover{color:#ffa8f6}.white{background:#FFF;color:#000}.black{background:#000;color:#FFF}.destaquesInicial{padding:40px 0;padding-bottom:120px}.destaquesInicial .imagemDestaque{position:relative;overflow:hidden;max-height:348px}.destaquesInicial .imagemDestaque .textoImagemDestaque{font-size:30px;text-transform:uppercase;color:#ffa8f6;position:absolute;bottom:20px;left:10px;font-family:'Pathway Gothic One', sans-serif;letter-spacing:0.150em}.destaquesInicial .descricaoDestaque{margin-top:30px}.destaquesInicial .descricaoDestaque p{font-size:16px;font-family:'Montserrat', sans-serif;color:#424242;letter-spacing:0.04em;line-height:29px;font-weight:300;text-align:justify;padding-left:13px;padding-right:13px}.destaquesInicial .descricaoDestaque .botoesDestaque{margin-top:20px}.defaultSection{position:relative}.defaultSection .tituloSecao{padding-top:70px;margin-bottom:50px;align-items:center}.defaultSection .tituloSecao h2{font-family:'herald_typefaceregular';font-size:36px;color:#020202;margin-bottom:0}.defaultSection .tituloSecao .iconeSecao{margin-right:30px}.defaultSection .descricaoSecao{padding-bottom:120px}.defaultSection .descricaoSecao p{font-size:16px;font-family:'Montserrat', sans-serif;color:#424242;letter-spacing:0.04em;line-height:33px;font-weight:300;text-align:justify;padding-left:13px;padding-right:13px;margin-bottom:45px}.defaultSection .paddingSection{padding-left:40px;padding-right:50px}.defaultSection .imagemBgSecao{position:absolute;right:0;top:0;height:100%;width:50%;background-attachment:fixed;background-size:contain;background-position:115%}.defaultSection .imagemBgSecaoLeft{position:absolute;left:0;top:0;height:100%;width:50%;background-attachment:fixed;background-size:contain;background-position-x:-110%}.blogHome{padding-top:80px;padding-bottom:90px}.blogHome .tituloBlog h2{font-family:'herald_typefaceregular';font-size:40px;color:#020202;padding-bottom:20px;position:relative;margin-bottom:50px}.blogHome .tituloBlog h2:after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:80px;height:3px;background:#020202}.blogHome .postsBlogIndex .imagemBlog{position:relative;margin-bottom:25px;overflow:hidden}.blogHome .postsBlogIndex .imagemBlog .dataPostImagem{position:absolute;top:20px;left:20px;font-size:15px;font-family:'Pathway Gothic One', sans-serif;color:#FFF;letter-spacing:0.1em;text-transform:uppercase}.blogHome .postsBlogIndex h3{font-family:'Pathway Gothic One', sans-serif;text-transform:uppercase;color:#020202;font-size:27px;letter-spacing:0.1em;margin-bottom:22px}.blogHome .postsBlogIndex p{font-weight:300;font-family:'Montserrat', sans-serif;font-size:16px;line-height:33px;color:#424242;margin-bottom:30px}.blogHome .postsBlogIndex .btnBlog{border-radius:5px;border-color:#303030;border-width:2px;color:#303030;padding:5px}.blogHome .postsBlogIndex .shareButtons i:before{color:#9c9c9c;font-size:30px}.instagramIndex .tituloInstagramSection{padding-top:44px;padding-bottom:40px;background:#f6f6f6}.instagramIndex .tituloInstagramSection h2{font-size:27px;font-family:'Pathway Gothic One', sans-serif;letter-spacing:0.2em;color:#020202;margin-left:20px;text-transform:uppercase}footer .newsletter{height:80px;background:#1f1f1f;display:flex;align-items:center}footer .newsletter h2{letter-spacing:0.1em;color:#FFF;text-transform:uppercase;font-size:30px;margin-bottom:0;margin-right:53px;font-family:'Pathway Gothic One', sans-serif}footer .newsletter input{background:none;border:none;border-bottom:2px solid #FFF;width:222px;font-size:13px;text-transform:uppercase;color:#FFF;letter-spacing:0.1em;padding-bottom:3px}footer .newsletter input::placeholder{color:#FFF}footer .newsletter button{width:250px;background:#FFF;color:#000;text-transform:uppercase;font-size:14px;border:0;letter-spacing:0.1em;font-weight:700}footer .big_footer{background:#000000;padding:36px 0}footer .big_footer h3{text-transform:uppercase;color:#FFF;font-size:20px;letter-spacing:0.1em;margin-bottom:16px;font-family:'Pathway Gothic One', sans-serif}footer .big_footer a{color:#FFF;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;display:block;margin-bottom:4px}footer .big_footer a:hover{color:#FFF}footer .big_footer .social_footer{margin-bottom:25px}footer .big_footer .social_footer a{color:#FFF;font-size:25px;margin-right:20px}footer .big_footer .social_footer a:last-child{margin-right:0}footer .copyright{background:#FFF;color:#030101;letter-spacing:0.1em;font-size:13px;height:41px}footer .copyright a{font-weight:900;color:#030101;margin:0 5px}.topoInterna{background-attachment:fixed;position:relative;margin-bottom:80px}.topoInterna h1{color:#FFF;font-family:'Pathway Gothic One', sans-serif;text-transform:uppercase;font-size:50px;text-align:center;padding-top:90px;padding-bottom:90px;margin-bottom:0;position:relative;z-index:2;letter-spacing:0.1em}.topoInterna .black_sombra{position:absolute;width:100%;height:100%;background:#0000004d;z-index:1}.listagemProdutos .cadaProduto .imagemProduto{overflow:hidden;max-height:261px}.listagemProdutos .cadaProduto .imagemProduto img{width:100%}.listagemProdutos .cadaProduto .descricaoProduto h2{font-family:'Pathway Gothic One', sans-serif;font-size:23px;color:#424242;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:0;margin-top:15px;line-height:22px}.listagemProdutos .cadaProduto .descricaoProduto .precoProduto{font-family:'Pathway Gothic One', sans-serif;font-size:27px;color:#424242;display:flex;flex-direction:column;margin-top:10px}.listagemProdutos .cadaProduto .descricaoProduto .precoProduto small{color:#b9b9b9;font-size:12px;font-family:'Montserrat', sans-serif;font-weight:500;line-height:10px}.listagemProdutos .cadaProduto .descricaoProduto .precoProduto .parcelas{font-weight:500;font-size:14px;color:#424242;font-family:'Montserrat', sans-serif}.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho{margin-top:35px}.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho{border:2px solid #303030;border-radius:3px;font-family:'Pathway Gothic One', sans-serif;font-size:20px;text-transform:uppercase;position:relative;padding:5px;color:#303030;letter-spacing:0.1em;transition:.3s}.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho:hover{background:#303030;color:#FFF}.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho:before{content:"\f106";font-family:Flaticon;font-size:17px;margin-left:0;width:30px;height:30px;border-radius:50%;background:#303030;color:#FFF;position:absolute;top:-20px;left:50%;transform:translateX(-50%);padding:2px}.sidebar{font-family:'Poppins', sans-serif}.sidebar .dentro_sidebar{background:#FFF;border-radius:10px;box-shadow:0px 3px 7px 0px rgba(0,0,0,0.08);padding-bottom:15px}.sidebar .buscar_s{position:relative}.sidebar .buscar_s input{background:#f6f6f6;border-radius:10px;font-size:12px;font-weight:400;color:#1a1a1a;padding:13px 17px;width:100%;border:0;box-shadow:0px 3px 7px 0px rgba(0,0,0,0.08)}.sidebar .buscar_s input::placeholder{color:#1a1a1a}.sidebar .buscar_s button{position:absolute;bottom:11px;right:42px;min-width:24px;border:0;height:24px;background:#f6f6f6}.sidebar .cada_sidebar{position:relative;padding-top:45px;border-top:1px solid #f6f6f6;padding-left:23px;padding-right:23px;margin-bottom:40px}.sidebar .cada_sidebar:after{content:'';width:2px;height:22px;background:#303030;top:0;position:absolute;left:25px}.sidebar .cada_sidebar ul{list-style:none;margin-bottom:40px}.sidebar .cada_sidebar ul li{margin-bottom:18px;position:relative}.sidebar .cada_sidebar ul li:before{position:absolute;top:1px;left:-39px;content:"\f107";width:20px;height:20px;font-family:Flaticon}.sidebar .cada_sidebar ul li a{color:#131313;font-size:16px}.sidebar .cada_sidebar h3{font-size:25px;font-weight:bold;color:#303030;margin-bottom:23px}.sidebar .cada_sidebar .lista_tags a{border:3px solid #cdcdcd;text-transform:uppercase;font-size:14px;color:#01014b;padding:12px 10px;margin-right:16px;display:inline-block;width:86px;margin-bottom:15px;text-align:center}.sidebar .cada_sidebar .lista_tags a:hover{background:#cdcdcd}.blogInterna{padding:0}.blogInternaPage{padding-bottom:80px}.postBlogInterna .descricaoBlogInterna{margin-top:20px}.postBlogInterna .descricaoBlogInterna h2{font-family:'Pathway Gothic One', sans-serif;font-size:33px;line-height:40px;color:#222222;letter-spacing:0.1em;margin-bottom:2px}.postBlogInterna .descricaoBlogInterna small{font-size:18px;font-family:'Pathway Gothic One', sans-serif;color:#9c9c9c;letter-spacing:0.1em}.postBlogInterna .descricaoBlogInterna .conteudoBlogInterna{margin-top:50px}.postBlogInterna .comentariosBlogInterna{margin-top:20px}.postBlogInterna .comentariosBlogInterna h3{font-family:'Pathway Gothic One', sans-serif;font-size:33px;line-height:40px;color:#222222;letter-spacing:0.1em;margin-bottom:20px}.sobrePage h2{font-family:'Pathway Gothic One', sans-serif;font-size:36px;line-height:40px;color:#222222;letter-spacing:0.1em;margin-bottom:20px;text-transform:uppercase}.sobrePage p{line-height:30px}.sobrePage .videoPlayer{position:relative}.sobrePage .videoPlayer:hover i{color:#121212}.sobrePage .videoPlayer i{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:#FFF;transition:.3s}.sobrePage .videoPlayer i::before{font-size:70px;margin-left:60px}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+@font-face { font-family: "Flaticon"; src: url("font/Flaticon.eot"); src: url("font/Flaticon.eot?#iefix") format("embedded-opentype"), url("font/Flaticon.woff2") format("woff2"), url("font/Flaticon.woff") format("woff"), url("font/Flaticon.ttf") format("truetype"), url("font/Flaticon.svg#Flaticon") format("svg"); font-weight: normal; font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { @font-face { font-family: "Flaticon"; src: url("font/Flaticon.svg#Flaticon") format("svg"); } }
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after { font-family: Flaticon; font-size: 20px; font-style: normal; margin-left: 20px; }
+
+.flaticon-full-items-inside-a-shopping-bag:before { content: "\f100"; }
+
+.flaticon-search:before { content: "\f101"; }
+
+.flaticon-illuminati:before { content: "\f102"; }
+
+.flaticon-valknut:before { content: "\f103"; }
+
+.flaticon-facebook-logo:before { content: "\f104"; }
+
+.flaticon-instagram:before { content: "\f105"; }
+
+.flaticon-shopping-cart:before { content: "\f106"; }
+
+.flaticon-star:before { content: "\f107"; }
+
+.flaticon-play-button:before { content: "\f108"; }
+
+.flaticon-email:before { content: "\f109"; }
+
+@font-face { font-family: 'herald_typefaceregular'; src: url("font/heraldtypeface-regular-webfont.woff2") format("woff2"), url("font/heraldtypeface-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+body { font-family: 'Carrois Gothic', sans-serif; }
+
+a { text-decoration: none !important; }
+
+header { background: #FFF; }
+
+header .topHeader { background: #f0f0f0; padding: 10px 30px; color: #343434; font-size: 12px; letter-spacing: 0.025em; }
+
+header .topHeader a { color: #343434; margin-right: 10px; }
+
+header .logo { position: absolute; left: 50%; transform: translateX(-50%); }
+
+header .middleHeader { padding-top: 26px; padding-bottom: 26px; background: #FFF; }
+
+header .middleHeader .dropdown-menu { border: none; box-shadow: 1px 1px 4px 2px #0000001f; min-width: 234px; padding: 17px; background: #f3f3f3; font-family: 'Pathway Gothic One', sans-serif; padding-top: 47px; margin-top: -34px; margin-left: -20px; }
+
+header .middleHeader .dropdown-menu .dropdown-item { color: #1f1f1f; padding-left: 0; }
+
+header .middleHeader .dropdown-menu h4 { margin-top: 10px; }
+
+header .middleHeader .dropdown-menu h4 a { color: #1f1f1f; font-family: 'Pathway Gothic One', sans-serif; text-transform: uppercase; }
+
+header .middleHeader .dropdown-toggle::after { display: none; }
+
+header .middleHeader .dropdown.show .hamburgBars { display: flex; flex-direction: column; }
+
+header .middleHeader .dropdown.show .hamburgBars span { display: block; width: 45px; height: 4px; background: #FFF; margin-top: 5px; position: relative; z-index: 9999; transition: all .1s; }
+
+header .middleHeader .dropdown.show .hamburgBars span:nth-child(1) { transform: rotate(45deg); width: 30px; }
+
+header .middleHeader .dropdown.show .hamburgBars span:nth-child(2) { display: none; }
+
+header .middleHeader .dropdown.show .hamburgBars span:nth-child(3) { transform: rotate(-45deg); top: -9px; width: 30px; }
+
+header .middleHeader .hamburgBars { display: flex; flex-direction: column; }
+
+header .middleHeader .hamburgBars span { display: block; width: 45px; height: 4px; background: #096313; margin-top: 5px; }
+
+header .middleHeader .iconesHeader { font-size: 12px; color: #343434; }
+
+header .middleHeader .iconesHeader i:before { font-size: 26px; color: #343434; }
+
+header .middleHeader .iconesHeader span { margin-left: 5px; }
+
+header .menuHeader { border-top: 1px solid #e8e8e8; padding-top: 12px; }
+
+header .menuHeader nav { padding: 0px 120px; }
+
+header .menuHeader nav ul { padding: 0; margin-right: 52px; margin-bottom: 0; }
+
+header .menuHeader nav ul li { height: 37px; position: relative; align-items: center; display: flex; }
+
+header .menuHeader nav ul li a { color: #121212; text-transform: uppercase; font-size: 18px; padding: 0 4px; transition: all .5s; letter-spacing: 0.06em; padding-bottom: 8px; }
+
+header .menuHeader nav ul li a:after { width: 0; position: absolute; bottom: 0; height: 3px; background: #121212; content: ''; transition: all .5s; left: 0; }
+
+header .menuHeader nav ul li a:hover { color: #121212; font-weight: 700; }
+
+header .menuHeader nav ul li a:hover:after { width: 100%; }
+
+header .menuHeader nav ul .active a { color: #121212; font-weight: 900; }
+
+header .menuHeader nav ul .active a:after { width: 100%; position: absolute; bottom: 0; height: 3px; background: #121212; content: ''; transition: all .5s; left: 0; }
+
+.dropdown.show .hamburgBars { position: relative; top: -52px; left: 160px; }
+
+.slider { background: #000000; }
+
+.slider .carousel-item { min-height: 77.1vh; max-height: 77.1vh; background-size: cover; background-attachment: fixed; }
+
+.slider .carousel-item .carousel-caption { top: 50%; transform: translateY(-50%); bottom: inherit; }
+
+.slider .carousel-item .carousel-caption h2 { font-family: 'herald_typefaceregular'; font-size: 72px; color: #FFF; text-shadow: 3px 2px #000; }
+
+.slider .carousel-item .carousel-caption h3 { font-size: 27px; color: #ffffff; font-weight: 400; text-shadow: 2px 2px #000000; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption { margin-top: 50px; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption .btn { font-size: 16px; padding: 10px 40px; letter-spacing: 0.1em; border-radius: 0; margin-right: 10px; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption .btnWhiteCapt { background: #ffffff9c; color: #000000; text-transform: uppercase; transition: all .5s; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption .btnWhiteCapt:hover { background: #FFF; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption .btnBlackCapt { background: #000000bf; color: #FFF; text-transform: uppercase; transition: all .5s; }
+
+.slider .carousel-item .carousel-caption .buttonsCaption .btnBlackCapt:hover { background: #000; }
+
+.sliderBottom { font-family: 'Montserrat', sans-serif; position: relative; }
+
+.sliderBottom .leftSlider { width: 50%; position: absolute; z-index: 2; background: #e2e2e2; top: 0; left: 0; height: 100%; }
+
+.sliderBottom .rightSlider { width: 50%; position: absolute; z-index: 2; background: #f1f1f1; top: 0; height: 100%; right: 0; }
+
+.sliderBottom .cadaItemSliderBottom { padding-top: 15px; padding-bottom: 15px; position: relative; z-index: 3; cursor: pointer; transition: all .5s; }
+
+.sliderBottom .cadaItemSliderBottom h3 { font-size: 21px; color: #424242; font-weight: 300; margin-bottom: 0px; letter-spacing: -0.04em; text-transform: uppercase; }
+
+.sliderBottom .cadaItemSliderBottom h4 { font-size: 31px; color: #424242; font-weight: 500; margin-bottom: 0; letter-spacing: -0.04em; text-transform: uppercase; line-height: 25px; }
+
+.sliderBottom .cadaItemSliderBottom .iconeSliderBottom { margin-right: 35px; }
+
+.sliderBottom .cadaItemSliderBottom .iconeSliderBottom i:before { font-size: 71px; color: #aeaeae; position: relative; }
+
+.sliderBottom .cadaItemSliderBottom:hover { background: #dddddd; }
+
+.sliderBottom .cadaItemSliderBottom:hover h3, .sliderBottom .cadaItemSliderBottom:hover h4, .sliderBottom .cadaItemSliderBottom:hover i:before { color: #000; }
+
+.btnDefault { border: 2px solid #000; font-size: 20px; padding: 10px 30px; border-radius: 0; margin-right: 5px; text-transform: uppercase; font-family: 'Pathway Gothic One', sans-serif; }
+
+.btnDefault:hover { color: #ffa8f6; }
+
+.white { background: #FFF; color: #000; }
+
+.white:hover { background: #000; }
+
+.black { background: #000; color: #FFF; }
+
+.destaquesInicial { padding: 40px 0; padding-bottom: 120px; }
+
+.destaquesInicial .imagemDestaque { position: relative; overflow: hidden; max-height: 348px; }
+
+.destaquesInicial .imagemDestaque .textoImagemDestaque { font-size: 30px; text-transform: uppercase; color: #ffa8f6; position: absolute; bottom: 20px; left: 10px; font-family: 'Pathway Gothic One', sans-serif; letter-spacing: 0.150em; }
+
+.destaquesInicial .descricaoDestaque { margin-top: 30px; }
+
+.destaquesInicial .descricaoDestaque p { font-size: 16px; font-family: 'Montserrat', sans-serif; color: #424242; letter-spacing: 0.04em; line-height: 29px; font-weight: 300; text-align: justify; padding-left: 13px; padding-right: 13px; }
+
+.destaquesInicial .descricaoDestaque .botoesDestaque { margin-top: 20px; }
+
+.defaultSection { position: relative; }
+
+.defaultSection .tituloSecao { padding-top: 70px; margin-bottom: 50px; align-items: center; }
+
+.defaultSection .tituloSecao h2 { font-family: 'herald_typefaceregular'; font-size: 36px; color: #020202; margin-bottom: 0; }
+
+.defaultSection .tituloSecao .iconeSecao { margin-right: 30px; }
+
+.defaultSection .descricaoSecao { padding-bottom: 120px; }
+
+.defaultSection .descricaoSecao p { font-size: 16px; font-family: 'Montserrat', sans-serif; color: #424242; letter-spacing: 0.04em; line-height: 33px; font-weight: 300; text-align: justify; padding-left: 13px; padding-right: 13px; margin-bottom: 45px; }
+
+.defaultSection .paddingSection { padding-left: 40px; padding-right: 50px; }
+
+.defaultSection .imagemBgSecao { position: absolute; right: 0; top: 0; height: 100%; width: 50%; background-attachment: fixed; background-size: contain; background-position: -165px; }
+
+.defaultSection .imagemBgSecaoLeft { position: absolute; left: 0; top: 0; height: 100%; width: 50%; background-attachment: fixed; background-size: contain; background-position-x: -318px; }
+
+.blogHome { padding-top: 80px; padding-bottom: 90px; }
+
+.blogHome .tituloBlog h2 { font-family: 'herald_typefaceregular'; font-size: 40px; color: #020202; padding-bottom: 20px; position: relative; margin-bottom: 50px; }
+
+.blogHome .tituloBlog h2:after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 3px; background: #020202; }
+
+.blogHome .postsBlogIndex .imagemBlog { position: relative; margin-bottom: 25px; overflow: hidden; }
+
+.blogHome .postsBlogIndex .imagemBlog .dataPostImagem { position: absolute; top: 20px; left: 20px; font-size: 15px; font-family: 'Pathway Gothic One', sans-serif; color: #FFF; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.blogHome .postsBlogIndex h3 { font-family: 'Pathway Gothic One', sans-serif; text-transform: uppercase; color: #020202; font-size: 27px; letter-spacing: 0.1em; margin-bottom: 22px; }
+
+.blogHome .postsBlogIndex p { font-weight: 300; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 33px; color: #424242; margin-bottom: 30px; }
+
+.blogHome .postsBlogIndex .btnBlog { border-radius: 5px; border-color: #303030; border-width: 2px; color: #303030; padding: 5px; }
+
+.blogHome .postsBlogIndex .shareButtons i:before { color: #9c9c9c; font-size: 30px; }
+
+.instagramIndex .tituloInstagramSection { padding-top: 44px; padding-bottom: 40px; background: #f6f6f6; }
+
+.instagramIndex .tituloInstagramSection h2 { font-size: 27px; font-family: 'Pathway Gothic One', sans-serif; letter-spacing: 0.2em; color: #020202; margin-left: 20px; text-transform: uppercase; }
+
+footer .newsletter { height: 80px; background: #1f1f1f; display: flex; align-items: center; }
+
+footer .newsletter h2 { letter-spacing: 0.1em; color: #FFF; text-transform: uppercase; font-size: 30px; margin-bottom: 0; margin-right: 53px; font-family: 'Pathway Gothic One', sans-serif; }
+
+footer .newsletter input { background: none; border: none; border-bottom: 2px solid #FFF; width: 222px; font-size: 13px; text-transform: uppercase; color: #FFF; letter-spacing: 0.1em; padding-bottom: 3px; }
+
+footer .newsletter input::placeholder { color: #FFF; }
+
+footer .newsletter button { width: 250px; background: #FFF; color: #000; text-transform: uppercase; font-size: 14px; border: 0; letter-spacing: 0.1em; font-weight: 700; }
+
+footer .big_footer { background: #000000; padding: 36px 0; }
+
+footer .big_footer h3 { text-transform: uppercase; color: #FFF; font-size: 20px; letter-spacing: 0.1em; margin-bottom: 16px; font-family: 'Pathway Gothic One', sans-serif; }
+
+footer .big_footer a { color: #FFF; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-bottom: 4px; }
+
+footer .big_footer a:hover { color: #FFF; }
+
+footer .big_footer .social_footer { margin-bottom: 25px; }
+
+footer .big_footer .social_footer a { color: #FFF; font-size: 25px; margin-right: 20px; }
+
+footer .big_footer .social_footer a:last-child { margin-right: 0; }
+
+footer .copyright { background: #FFF; color: #030101; letter-spacing: 0.1em; font-size: 13px; height: 41px; }
+
+footer .copyright a { font-weight: 900; color: #030101; margin: 0 5px; }
+
+.topoInterna { background-attachment: fixed; position: relative; margin-bottom: 80px; }
+
+.topoInterna h1 { color: #FFF; font-family: 'Pathway Gothic One', sans-serif; text-transform: uppercase; font-size: 50px; text-align: center; padding-top: 124px; padding-bottom: 124px; margin-bottom: 0; position: relative; z-index: 2; letter-spacing: 0.1em; }
+
+.topoInterna .black_sombra { position: absolute; width: 100%; height: 100%; background: #0000004d; z-index: 1; }
+
+.listagemProdutos .cadaProduto .imagemProduto { overflow: hidden; max-height: 261px; }
+
+.listagemProdutos .cadaProduto .imagemProduto img { width: 100%; }
+
+.listagemProdutos .cadaProduto .descricaoProduto h2 { font-family: 'Pathway Gothic One', sans-serif; font-size: 23px; color: #424242; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 0; margin-top: 15px; line-height: 22px; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .precoProduto { font-family: 'Pathway Gothic One', sans-serif; font-size: 27px; color: #424242; display: flex; flex-direction: column; margin-top: 10px; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .precoProduto small { color: #b9b9b9; font-size: 12px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 10px; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .precoProduto .parcelas { font-weight: 500; font-size: 14px; color: #424242; font-family: 'Montserrat', sans-serif; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho { margin-top: 35px; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho { border: 2px solid #303030; border-radius: 3px; font-family: 'Pathway Gothic One', sans-serif; font-size: 20px; text-transform: uppercase; position: relative; padding: 5px; color: #303030; letter-spacing: 0.1em; transition: .3s; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho:hover { background: #303030; color: #FFF; }
+
+.listagemProdutos .cadaProduto .descricaoProduto .botaoCarrinho a.adicionarAoCarrinho:before { content: "\f106"; font-family: Flaticon; font-size: 17px; margin-left: 0; width: 30px; height: 30px; border-radius: 50%; background: #303030; color: #FFF; position: absolute; top: -20px; left: 50%; transform: translateX(-50%); padding: 2px; }
+
+.sidebar { font-family: 'Poppins', sans-serif; }
+
+.sidebar .dentro_sidebar { background: #FFF; border-radius: 10px; box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08); padding-bottom: 15px; }
+
+.sidebar .buscar_s { position: relative; }
+
+.sidebar .buscar_s input { background: #f6f6f6; border-radius: 10px; font-size: 12px; font-weight: 400; color: #1a1a1a; padding: 13px 17px; width: 100%; border: 0; box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.08); }
+
+.sidebar .buscar_s input::placeholder { color: #1a1a1a; }
+
+.sidebar .buscar_s button { position: absolute; bottom: 11px; right: 42px; min-width: 24px; border: 0; height: 24px; background: #f6f6f6; }
+
+.sidebar .cada_sidebar { position: relative; padding-top: 45px; border-top: 1px solid #f6f6f6; padding-left: 23px; padding-right: 23px; margin-bottom: 40px; }
+
+.sidebar .cada_sidebar:after { content: ''; width: 2px; height: 22px; background: #303030; top: 0; position: absolute; left: 25px; }
+
+.sidebar .cada_sidebar ul { list-style: none; margin-bottom: 40px; }
+
+.sidebar .cada_sidebar ul li { margin-bottom: 18px; position: relative; }
+
+.sidebar .cada_sidebar ul li:before { position: absolute; top: 1px; left: -39px; content: "\f107"; width: 20px; height: 20px; font-family: Flaticon; }
+
+.sidebar .cada_sidebar ul li a { color: #131313; font-size: 16px; }
+
+.sidebar .cada_sidebar h3 { font-size: 27px; font-weight: bold; color: #303030; margin-bottom: 23px; font-family: 'Pathway Gothic One', sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+
+.sidebar .cada_sidebar .lista_tags a { border: 3px solid #cdcdcd; text-transform: uppercase; font-size: 14px; color: #01014b; padding: 12px 10px; margin-right: 16px; display: inline-block; width: 86px; margin-bottom: 15px; text-align: center; }
+
+.sidebar .cada_sidebar .lista_tags a:hover { background: #cdcdcd; }
+
+.blogInterna { padding: 0; }
+
+.blogInternaPage { padding-bottom: 80px; }
+
+.postBlogInterna .descricaoBlogInterna { margin-top: 20px; }
+
+.postBlogInterna .descricaoBlogInterna h2 { font-family: 'Pathway Gothic One', sans-serif; font-size: 33px; line-height: 40px; color: #222222; letter-spacing: 0.1em; margin-bottom: 2px; }
+
+.postBlogInterna .descricaoBlogInterna small { font-size: 18px; font-family: 'Pathway Gothic One', sans-serif; color: #9c9c9c; letter-spacing: 0.1em; }
+
+.postBlogInterna .descricaoBlogInterna .conteudoBlogInterna { margin-top: 50px; }
+
+.postBlogInterna .comentariosBlogInterna { margin-top: 20px; }
+
+.postBlogInterna .comentariosBlogInterna h3 { font-family: 'Pathway Gothic One', sans-serif; font-size: 33px; line-height: 40px; color: #222222; letter-spacing: 0.1em; margin-bottom: 20px; }
+
+.sobrePage h2 { font-family: 'Pathway Gothic One', sans-serif; font-size: 36px; line-height: 40px; color: #222222; letter-spacing: 0.1em; margin-bottom: 20px; text-transform: uppercase; }
+
+.sobrePage p { line-height: 30px; }
+
+.sobrePage .videoPlayer { position: relative; }
+
+.sobrePage .videoPlayer:hover i { color: #121212; }
+
+.sobrePage .videoPlayer i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #FFF; transition: .3s; }
+
+.sobrePage .videoPlayer i::before { font-size: 70px; margin-left: 60px; }
+
+.cadaProduto { margin-bottom: 70px !important; }
+
+.titulo_quem { position: relative; height: 441px; background: #1b1b1b; }
+
+.titulo_quem h1 { display: inline-block; font-size: 60px; font-family: 'Pathway Gothic One', sans-serif; line-height: 60px; letter-spacing: 3px; color: #FFF; text-transform: uppercase; margin-bottom: 32px; }
+
+.titulo_quem h1 span { font-weight: 900; }
+
+.titulo_quem .titulo_align { display: flex; align-self: flex-end; }
+
+.imagem_direita { position: absolute; top: 0; right: 0; width: 50%; background: url(../images/sobre.jpg); height: 441px; }
