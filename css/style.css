@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400&display=swap");
 @font-face { font-family: "Flaticon"; src: url("font/Flaticon.eot"); src: url("font/Flaticon.eot?#iefix") format("embedded-opentype"), url("font/Flaticon.woff2") format("woff2"), url("font/Flaticon.woff") format("woff"), url("font/Flaticon.ttf") format("truetype"), url("font/Flaticon.svg#Flaticon") format("svg"); font-weight: normal; font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { @font-face { font-family: "Flaticon"; src: url("font/Flaticon.svg#Flaticon") format("svg"); } }
@@ -100,9 +101,9 @@ header .menuHeader nav ul .active a:after { width: 100%; position: absolute; bot
 
 .slider .carousel-item .carousel-caption { top: 50%; transform: translateY(-50%); bottom: inherit; }
 
-.slider .carousel-item .carousel-caption h2 { font-family: 'herald_typefaceregular'; font-size: 60px; color: #FFF; text-shadow: 3px 2px #000; }
+.slider .carousel-item .carousel-caption h2 { font-family: 'Playfair Display', serif; font-size: 45px; line-height: 50px; margin-bottom: 20px; font-weight: 400; color: #FFF; text-shadow: 3px 2px #000; text-transform: uppercase; }
 
-.slider .carousel-item .carousel-caption h3 { font-family: 'Satisfy', cursive; font-size: 33px; color: #ffffff; font-weight: 400; text-shadow: 2px 2px #000000; }
+.slider .carousel-item .carousel-caption h3 { font-family: 'Satisfy', cursive; font-size: 31px; color: #ffffff; font-weight: 400; line-height: 43px; text-shadow: 2px 2px #000000; }
 
 .slider .carousel-item .carousel-caption .buttonsCaption { margin-top: 50px; }
 

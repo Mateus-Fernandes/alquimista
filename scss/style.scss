@@ -12,7 +12,6 @@
   }
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
-  
   @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
       font-family: "Flaticon";
@@ -232,6 +231,7 @@ header{
     left: 160px;
 }
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400&display=swap');
   .slider{
       background: #000000;
       .carousel-item{
@@ -244,16 +244,21 @@ header{
             transform: translateY(-50%);
             bottom: inherit;
               h2{
-                font-family: 'herald_typefaceregular';
-                font-size: 60px;
+                font-family: 'Playfair Display', serif;
+                font-size: 45px;
+                line-height: 50px;
+                margin-bottom: 20px;
+                font-weight: 400;
                 color: #FFF;
                 text-shadow: 3px 2px #000;
+                text-transform: uppercase;
               }
               h3 {
                 font-family: 'Satisfy', cursive;
-                font-size: 33px;
+                font-size: 31px;
                 color: #ffffff;
                 font-weight: 400;
+                line-height: 43px;
                 text-shadow: 2px 2px #000000;
               }
               .buttonsCaption{
